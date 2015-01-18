@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+background-color: black;
+}
+</style>
+
+<body>
+<!--D3.js library reference-->
+<script src="http://d3js.org/d3.v3.min.js"></script> 
+
+<script>
+//Make an SVG Container
+var svgContainer = d3.select("body").append("svg")
+                                  .attr("width", 200)
+                                   .attr("height", 200);
+//Draw the Circle
+var circle = svgContainer.append("circle")
+                         .attr("cx", 30)
+                         .attr("cy", 30)
+                         .attr("r", 20)
+                         .attr("fill", "orange");
+
+ //Make an SVG Container
+ var svgContainer = d3.select("body").append("svg")
+                                     .attr("width", 200)
+                                     .attr("height", 200);
+ //Draw the Rectangle
+ var rectangle = svgContainer.append("rect")
+                             .attr("x", 10)
+                            .attr("y", 10)
+                            .attr("width", 50)
+                            .attr("height", 100)
+                            .attr("fill", "orange");
+</script>
+
+<img src="svgExampleCode.png">
