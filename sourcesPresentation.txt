@@ -1,4 +1,4 @@
-Resources for developing interactive data visualizations with D3;
+Resources for developing interactive data visualizations with D3:
 
 Link to the projects code on GitHub; https://github.com/richard- rud/sankeyDiagramPrototype_v1.0
 
