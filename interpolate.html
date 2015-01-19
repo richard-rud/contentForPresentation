@@ -1,0 +1,47 @@
+<script src="http://d3js.org/d3.v2.min.js"></script>
+<script src="chart.js"></script>
+
+<section id="interpolate-example">
+<pre><code></code></pre>
+<script>(function(){
+
+var arc = d3.svg.arc()
+    .startAngle(0)
+    .endAngle(function(d) { return d.θ; })
+    .innerRadius(0)
+    .outerRadius(function(d) { return d.r; });
+
+var x = d3.scale.linear()
+    .domain([0, 1280])
+    .range([{θ: Math.PI / 2, r: 80}, {θ: 2 * Math.PI, r: 320}]);
+
+var svg = d3.select("#interpolate-example").append("svg")
+    .attr("width", 1280)
+    .attr("height", 720)
+    .attr("class", "chart")
+    .on("mousemove", mousemove);
+
+svg.append("rect")
+    .attr("class", "background")
+    .attr("width", 1280)
+    .attr("height", 720)
+    .style("pointer-events", "all");
+
+var path = svg.append("path")
+    .datum(x(640))
+    .attr("d", arc)
+    .attr("transform", "translate(640,360)")
+    .style("fill", "#3182bd")
+    .style("stroke", "#fff")
+    .style("stroke-width", "2px");
+
+function mousemove() {
+  var d = x(d3.mouse(this)[0]);
+  path.datum(d).attr("d", arc);
+  d3.select("#interpolate-example code").text(JSON.stringify(d));
+}
+
+})()</script>
+<h2>You can even interpolate objects!</h2>
+<aside>Mousemove to see this demo.<p>This slide is contrived, but object interpolation is often used for transitions of complex data objects, such as donut charts or sunburst layouts.</aside>
+</section>

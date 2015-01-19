@@ -1,21 +1,39 @@
 Resources for developing interactive data visualizations with D3:
 
-Link to the projects code on GitHub; https://github.com/richard- rud/sankeyDiagramPrototype_v1.0
-
 GitHub user documentation; https://help.github.com
 
-D3.js API-Reference; https://github.com/mbostock/d3/wiki/API- Reference
+D3.js API-Reference; https://github.com/mbostock/d3/wiki/API-Reference
 
-SVG documentation; https://developer.mozilla.org/en- US/docs/Web/SVG
+D3 wiki page: https://github.com/mbostock/d3/wiki
 
-HTML documentation; https://developer.mozilla.org/en- US/docs/Web/HTML
+SVG documentation; https://developer.mozilla.org/en-US/docs/Web/SVG
 
-CSS reference; https://developer.mozilla.org/en- US/docs/Web/CSS/Reference
+HTML documentation; https://developer.mozilla.org/en-US/docs/Web/HTML
 
-JavaScript reference; https://developer.mozilla.org/en- US/docs/Web/JavaScript/Reference
+CSS reference; https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+JavaScript reference; https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 JSON documentation; http://www.json.org
 
-NTNU webpage setup/ server setup reference; https://innsida.ntnu.no/wiki/- /wiki/English/Create+your+own+website
+NTNU webpage setup/ server setup reference (All students/Phd's/researchers and professors should have access to a server); https://innsida.ntnu.no/wiki/-/wiki/English/Create+your+own+website
 
 D3-tip API reference; https://github.com/Caged/d3- tip/blob/master/docs/index.md
+
+Link to my code for the MFA project on GitHub; https://github.com/richard- rud/sankeyDiagramPrototype_v1.0
+
+Getting started with D3; http://d3js.org/
+
+Google Chrome developer tools; https://developer.chrome.com/devtools
+
+Firefox developer tools; https://developer.mozilla.org/en-US/docs/Tools
+
+Cross-platform local web server, XAMPP; https://www.apachefriends.org/index.html
+
+D3 forum on Google Groups; https://groups.google.com/forum/#!forum/d3-js
+
+D3 forum on stack overflow; http://stackoverflow.com/questions/tagged/d3.js
+
+
+
+
