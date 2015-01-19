@@ -1,0 +1,21 @@
+Resources for developing interactive data visualizations with D3;
+
+Link to the projects code on GitHub; https://github.com/richard- rud/sankeyDiagramPrototype_v1.0
+
+GitHub user documentation; https://help.github.com
+
+D3.js API-Reference; https://github.com/mbostock/d3/wiki/API- Reference
+
+SVG documentation; https://developer.mozilla.org/en- US/docs/Web/SVG
+
+HTML documentation; https://developer.mozilla.org/en- US/docs/Web/HTML
+
+CSS reference; https://developer.mozilla.org/en- US/docs/Web/CSS/Reference
+
+JavaScript reference; https://developer.mozilla.org/en- US/docs/Web/JavaScript/Reference
+
+JSON documentation; http://www.json.org
+
+NTNU webpage setup/ server setup reference; https://innsida.ntnu.no/wiki/- /wiki/English/Create+your+own+website
+
+D3-tip API reference; https://github.com/Caged/d3- tip/blob/master/docs/index.md

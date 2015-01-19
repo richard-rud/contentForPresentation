@@ -18,7 +18,7 @@ div {
 span {
   display: inline-block;
   position: absolute;
-  height: 16px;
+  height: 38px;
 }
 
 .progress {
@@ -50,7 +50,7 @@ function create() {
 
   div.append("span")
       .attr("class", "progress")
-      .style("width", "240px")
+      .style("width", "640px")
       .style("left", "80px")
     .append("span")
       .attr("class", "value")
@@ -60,7 +60,7 @@ function create() {
       .style("width", "100%");
 
   div.transition()
-      .style("height", "20px")
+      .style("height", "40px")
     .transition()
       .delay(duration)
       .style("height", "0px")
