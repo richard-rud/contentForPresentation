@@ -64,13 +64,13 @@ padding: 10px;
 .link {
   fill: none;
   stroke: #000;
-  stroke-opacity: .2;
+  stroke-opacity: .5;
 }
 
 /** .cycleLink changes the stroke color, fill + opacity of the cycle flows**/
 
 .cycleLink {
-  opacity: .2;
+  opacity: .5;
   /*stroke-dasharray: 6,6;*/
 }
 
@@ -129,7 +129,7 @@ var formatNumber = d3.format(""),
     color = d3.scale.category20();
 
 var sankey = d3.sankey()
-    .nodeWidth(10)
+    .nodeWidth(70)
     .nodePadding(10)
     .size([width, height]);
 

@@ -34,7 +34,7 @@ body {
   height: 600px;
   width: 1250px;
   margin: 20px;
-  background-color: #E6E6E6;
+  background-color: #1A1818;
   border: solid;
   border-style: groove;
   /*Positioning the sankey*/
@@ -129,7 +129,7 @@ var formatNumber = d3.format(""),
     color = d3.scale.category20();
 
 var sankey = d3.sankey()
-    .nodeWidth(100)
+    .nodeWidth(10)
     .nodePadding(10)
     .size([width, height]);
 
@@ -256,7 +256,7 @@ var allgraphics = svg.append("g").attr("id", "node-and-link-container" )//Makes 
   node.append("rect")
       .attr("height", function(d) { return d.dy; })
       .attr("width", sankey.nodeWidth())
-      .style("fill", "grey")
+      .style("fill", "#e6f5d0")
       .style("pointer-events", "all")
       .on("mouseover", function(d){  
       
@@ -300,6 +300,7 @@ var allgraphics = svg.append("g").attr("id", "node-and-link-container" )//Makes 
         .attr("x", -30)
         .attr("y", function(d) { return d.dy + 15; })
         .attr("transform", null)
+        .attr("fill", "white")
         .text(function(d) { return d.name; });
 
   function dragmove(d) {
